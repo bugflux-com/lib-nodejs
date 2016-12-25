@@ -1,0 +1,29 @@
+{
+  "name": "bugflux",
+  "version": "1.0.4",
+  "description": "Bugflux reporting library for Node.js",
+  "homepage": "http://bugflux.com/",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/**/*.test.js"
+  },
+  "keywords": [
+    "bugflux",
+    "reporting",
+    "report",
+    "crash",
+    "report",
+    "send"
+  ],
+  "author": "Wojciech Mleczek",
+  "license": "MIT",
+  "dependencies": {
+    "args-js": "^0.10.12",
+    "object-hash": "^1.1.3",
+    "request": "^2.73.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
